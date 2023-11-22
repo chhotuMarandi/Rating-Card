@@ -30,13 +30,14 @@ body {
  gap: 1em;
 }
 
-
+h3 {
+  margin: 5px 0;
+}
 
 .star-icon > i {
   background-color: var(--cardColor);
   padding: 8px;
   border-radius: 50%;
-  margin-bottom: 10px;
 }
 
 .rate-btn{
