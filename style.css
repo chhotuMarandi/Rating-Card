@@ -31,18 +31,12 @@ body {
 }
 
 
-.star-icon{
- background-color: var(--cardColor);
- height: 40px;
- width: 40px;
- display: inline-block;
- text-align: center;
- border-radius: 50%;
- top: 50%;
-}
 
-.star-icon i{
-top: calc(50% - 10px);
+.star-icon > i {
+  background-color: var(--cardColor);
+  padding: 8px;
+  border-radius: 50%;
+  margin-bottom: 10px;
 }
 
 .rate-btn{
