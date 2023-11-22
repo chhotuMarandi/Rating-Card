@@ -1,0 +1,70 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ width: 100%;
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+/*color variables*/
+
+:root {
+ --star-Color: #ff6600;
+--backgroundColor: #252B48;
+--cardColor: #445069;
+}
+
+.container{
+ width: 320px;
+ height: 310px;
+ background-color: var(--backgroundColor);
+ border-radius: 15px;
+ padding: 26px;
+ color: white;
+ gap: 1em;
+}
+
+
+.star-icon{
+ background-color: var(--cardColor);
+ height: 40px;
+ width: 40px;
+ display: inline-block;
+ text-align: center;
+ border-radius: 50%;
+ top: 50%;
+}
+
+.star-icon i{
+top: calc(50% - 10px);
+}
+
+.rate-btn{
+  height: 30px;
+ width: 30px;
+ border-radius: 50%;
+ margin: 10px;
+ border: none;
+ padding: 5px;
+ cursor: pointer;
+}
+
+
+#submit-btn{
+  width: 100%;
+  height: 2.5em;
+  background-color: var(--star-Color);
+  border-radius: 1em;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+  text-transform: capitalize;
+}
