@@ -5,6 +5,7 @@ const starButtons = document.querySelectorAll('.rate-btn');
 starButtons.forEach((btn)=>{
 btn.addEventListener('click',(e)=>{
   console.log(e.target.value);
+  //test branch
 })
 })
 
